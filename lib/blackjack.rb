@@ -45,7 +45,7 @@ end
 def invalid_command
   invalid_command
   puts "Please enter a valid command"
-  prompt_user
+  hit?(card_total)
 end
 
 #####################################################
